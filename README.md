@@ -1,5 +1,7 @@
 # The Tophy Project
 
+![alt text](repository_main_image.jpg)
+
 ## Repository About
 
 This repository will have all the Tophy Project development,
