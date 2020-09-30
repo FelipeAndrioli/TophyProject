@@ -1,6 +1,6 @@
 # The Tophy Project
 
-![alt text](repository_main_image.jpg)
+![alt text](tophy_engine/images/repository_images/repository_main_image.jpg)
 
 ## Repository About
 
