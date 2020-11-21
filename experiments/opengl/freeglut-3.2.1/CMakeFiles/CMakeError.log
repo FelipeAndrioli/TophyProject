@@ -1,0 +1,72 @@
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_95a5b/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_95a5b.dir\build.make CMakeFiles/cmTC_95a5b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95a5b.dir/HAVE_SYS_IOCTL_H.c.obj
+C:\MinGW\bin\gcc.exe   -Wall -pedantic  -o CMakeFiles\cmTC_95a5b.dir\HAVE_SYS_IOCTL_H.c.obj -c C:\Users\Felipe\Desktop\tophy-project\experiments\opengl\freeglut-3.2.1\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+C:\Users\Felipe\Desktop\tophy-project\experiments\opengl\freeglut-3.2.1\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c:2:10: fatal error: sys/ioctl.h: No such file or directory
+    2 | #include <sys/ioctl.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles\cmTC_95a5b.dir\build.make:83: recipe for target 'CMakeFiles/cmTC_95a5b.dir/HAVE_SYS_IOCTL_H.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_95a5b.dir/HAVE_SYS_IOCTL_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_95a5b/fast' failed
+mingw32-make.exe: *** [cmTC_95a5b/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_cb62c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cb62c.dir\build.make CMakeFiles/cmTC_cb62c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb62c.dir/HAVE_USBHID_H.c.obj
+C:\MinGW\bin\gcc.exe   -Wall -pedantic  -o CMakeFiles\cmTC_cb62c.dir\HAVE_USBHID_H.c.obj -c C:\Users\Felipe\Desktop\tophy-project\experiments\opengl\freeglut-3.2.1\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c
+C:\Users\Felipe\Desktop\tophy-project\experiments\opengl\freeglut-3.2.1\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: No such file or directory
+    2 | #include <usbhid.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+CMakeFiles\cmTC_cb62c.dir\build.make:83: recipe for target 'CMakeFiles/cmTC_cb62c.dir/HAVE_USBHID_H.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_cb62c.dir/HAVE_USBHID_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_cb62c/fast' failed
+mingw32-make.exe: *** [cmTC_cb62c/fast] Error 2
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_e407b/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e407b.dir\build.make CMakeFiles/cmTC_e407b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e407b.dir/CheckFunctionExists.c.obj
+C:\MinGW\bin\gcc.exe   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles\cmTC_e407b.dir\CheckFunctionExists.c.obj -c "E:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_e407b.exe
+"E:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e407b.dir\link.txt --verbose=1
+"E:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e407b.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_e407b.dir/objects.a @CMakeFiles\cmTC_e407b.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -Wl,--whole-archive CMakeFiles\cmTC_e407b.dir/objects.a -Wl,--no-whole-archive -o cmTC_e407b.exe -Wl,--out-implib,libcmTC_e407b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e407b.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: CMakeFiles\cmTC_e407b.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `XParseGeometry'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_e407b.dir\build.make:106: recipe for target 'cmTC_e407b.exe' failed
+mingw32-make.exe[1]: *** [cmTC_e407b.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Felipe/Desktop/tophy-project/experiments/opengl/freeglut-3.2.1/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_e407b/fast' failed
+mingw32-make.exe: *** [cmTC_e407b/fast] Error 2
+
+
+
